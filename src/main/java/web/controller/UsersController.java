@@ -46,7 +46,7 @@ public class UsersController {
         return "users/edit";
     }
 
-    @PatchMapping()
+    @PutMapping()
     public String updateUser(@ModelAttribute("user") @Valid User user, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return "users/edit";

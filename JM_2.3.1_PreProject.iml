@@ -14,6 +14,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="JM_2.3.1_PreProject" />
+          <factory-entry name="getEntityManagerFactory" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
